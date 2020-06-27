@@ -1,0 +1,15 @@
+.nav__link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color .3s ease;
+  padding: 3px;
+}
+
+.nav__link:hover {
+  color: #fff;
+}
+
+.nav__link:focus {
+  outline: 1px solid yellow;
+  color: #fff;
+}

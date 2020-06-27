@@ -1,0 +1,11 @@
+@import url(./__conteiner/page__container.css);
+@import url(./__header/page__header.css);
+@import url(./__content/page__content.css);
+@import url(./__footer/page__footer.css);
+
+
+.page {
+  background-color: #121217;
+  margin: 0;
+  min-height: 100vh;
+}

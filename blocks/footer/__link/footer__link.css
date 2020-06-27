@@ -1,0 +1,19 @@
+.footer__link {
+  color: #000;
+  margin: 0;
+  padding: .3em .5em;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  outline: 1px solid #000;
+}
+
+.footer__link:focus {
+  border: 1px solid black;
+  outline: none;
+}

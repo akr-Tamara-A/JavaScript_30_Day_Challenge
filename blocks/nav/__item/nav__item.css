@@ -1,0 +1,4 @@
+.nav__item {
+  border-bottom: 1px solid rgba(240, 240, 240, .1);
+  align-self: center;
+}

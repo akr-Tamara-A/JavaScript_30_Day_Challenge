@@ -1,0 +1,14 @@
+.nav__wrapper {
+  transform: scaleX(0);
+  animation: fade-w 1.2s ease-out 1s forwards;
+  transform-origin: left;
+}
+
+@keyframes fade-w {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
