@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./pages/JavaScript_Drum_Kit.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Andreeva Tamara">
+    <title>JavaScript Drum Kit</title>
+  </head>
+  <body class="page">
+    <div class="page__container page__bg page__bg_style_js-drum-kit">      
+      <!--Header begin-->
+      <header class="header page__header">
+        <div class="header__container">
+          <img src="./images/header__logo.svg" alt="avaScript 30 Days Challenge" class="header__logo">
+          <h2 class="header__title">JavaScript Drum Kit</h2>
+          <nav class="header__nav nav">
+            <button type="button" class="button nav__button button_style_nav">Select page</button>
+            <ol class="nav__list">
+              <li class="nav__item">
+                <a href="./index.html" class="nav__link">    Main Page</a>
+              </li>
+              <li class="nav__item">
+                <a href="./index.html" class="nav__link">01. JavaScript Drum Kit</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">02. CSS + JS Clock</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </header>
+      <!--Header end-->
+
+      <!--Content begin-->
+      <main class="content page__content">
+        <div class="content__container">
+          <ul class="keys">
+            <li class="key" data-key="65">
+              <kbd>A</kbd>
+              <p class="sound">bem</p>
+            </li>
+            <li class="key" data-key="83">
+              <kbd>S</kbd>
+              <p class="sound">boom</p>
+            </li>
+            <li class="key" data-key="68">
+              <kbd>D</kbd>
+              <p class="sound">bum</p>
+            </li>
+            <li class="key" data-key="70">
+              <kbd>F</kbd>
+              <p class="sound">conga nice</p>
+            </li>
+            <li class="key" data-key="71">
+              <kbd>G</kbd>
+              <p class="sound">dry snare</p>
+            </li>
+            <li class="key" data-key="72">
+              <kbd>H</kbd>
+              <p class="sound">mid tom</p>
+            </li>
+            <li class="key" data-key="74">
+              <kbd>J</kbd>
+              <p class="sound">mean snare</p>
+            </li>
+            <li class="key" data-key="75">
+              <kbd>K</kbd>
+              <p class="sound">conga tom</p>
+            </li>
+            <li class="key" data-key="76">
+              <kbd>L</kbd>
+              <p class="sound">snare</p>
+            </li>
+          </ul>
+        </div>
+        <audio data-key="65" src="./audio/bem.wav"></audio>
+        <audio data-key="83" src="./audio/boom.wav"></audio>
+        <audio data-key="68" src="./audio/bum.wav"></audio>
+        <audio data-key="70" src="./audio/conga_nice.wav"></audio>
+        <audio data-key="71" src="./audio/dry_snare.wav"></audio>
+        <audio data-key="72" src="./audio/long_mid_tom.wav"></audio>
+        <audio data-key="74" src="./audio/mean_snare.wav"></audio>
+        <audio data-key="75" src="./audio/short_conga_tom.wav"></audio>
+        <audio data-key="76" src="./audio/snare.wav"></audio>
+      </main>
+      <!--Content end-->
+
+      <!--Footer begin-->
+      <footer class="footer page__footer">
+        <div class="footer__container">
+<!--           <div class="footer__buttons">
+            <button type="button" class="footer__button button button_type_prev button_style_control">&larr;</button>
+            <button type="button" class="footer__button button button_type_next button_style_control">&rarr;</button>
+          </div> -->
+          <a href="https://courses.wesbos.com" 
+            class="footer__link">Source: 
+            <span class="footer__source">JavaScript30</span>
+          </a>
+        </div>
+      </footer>
+      <!--Footer end-->
+    </div>
+
+    <!--Scripts-->
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/JavaScript_Drum_Kit.js"></script>
+  </body>
+</html>

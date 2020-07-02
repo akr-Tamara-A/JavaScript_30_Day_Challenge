@@ -4,5 +4,6 @@
 @import url(./__link/footer__link.css);
 
 .footer {
-
+  padding: 0 30px;
+  background-color: rgba(240, 240, 240, .1);
 }

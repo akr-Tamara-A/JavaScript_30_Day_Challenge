@@ -6,4 +6,7 @@
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/keys/keys.css);
+@import url(../blocks/key/key.css);
+@import url(../blocks/sound/sound.css);
 @import url(../blocks/footer/footer.css);
