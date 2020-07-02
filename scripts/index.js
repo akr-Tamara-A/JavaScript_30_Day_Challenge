@@ -1,6 +1,6 @@
-const nav = document.querySelector('.page__nav');
+const nav = document.querySelector('.header__nav');
 const navList = document.querySelector('.nav__list');
-const navButtonClose = document.querySelector('.button_type_nav');
+const navButtonClose = document.querySelector('.nav__button');
 
 function handleNav() {
   navButtonClose.classList.toggle('button_active');

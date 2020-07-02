@@ -1,14 +1,33 @@
 .header__title {
-  margin: 0 auto;
+  margin: 0 20px;
   font-size: 3rem;
   font-weight: bold;
   font-style: normal;
-  line-height: 1;
-  text-align: center;
+  line-height: 1.15;
+  align-self: flex-start;
+  justify-self: center;
+}
+
+@media screen and (max-width: 900px) {
+  .header__title {
+    font-size: 2.6rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header__title {
+    font-size: 2.2rem;
+  }
 }
 
 @media screen and (max-width: 620px) {
   .header__title {
-    font-size: 2.6rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header__title {
+    font-size: 1.6rem;
   }
 }
