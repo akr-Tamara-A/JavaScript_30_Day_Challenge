@@ -1,0 +1,4 @@
+.button_active {
+  transform: translateX(0);
+  background-color: rgba(00, 00, 00, .7);
+}

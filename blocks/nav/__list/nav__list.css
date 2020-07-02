@@ -11,4 +11,7 @@
   box-sizing: border-box;
   list-style: none;
   background-color: rgba(00, 00, 00, .3);
+  transition: .3s ease-out;
+  transform-origin: left;
+  transform: scaleX(0);
 }

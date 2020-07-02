@@ -1,9 +1,0 @@
-.header__nav {
-  position: fixed;
-  top: 30px;
-  left: -180px;
-  z-index: 100;
-
-  transition: .5s ease;
-  }
-

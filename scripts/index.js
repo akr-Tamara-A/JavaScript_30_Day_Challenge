@@ -1,9 +1,10 @@
-const nav = document.querySelector('.header__nav');
-const navButtonClose = document.querySelector('.button_type_menu');
+const nav = document.querySelector('.page__nav');
+const navList = document.querySelector('.nav__list');
+const navButtonClose = document.querySelector('.button_type_nav');
 
 function handleNav() {
-  nav.classList.toggle('header__nav_active');
-  
+  navButtonClose.classList.toggle('button_active');
+  navList.classList.toggle('nav_list_active');
 }
 
 navButtonClose.addEventListener('click', handleNav);

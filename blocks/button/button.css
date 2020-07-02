@@ -1,12 +1,13 @@
-@import url(./button_not-active.css);
-@import url(./_type/button_type_menu.css);
+@import url(./_type/button_type_nav.css);
 @import url(./_type/button_type_.prev.css);
 @import url(./_type/button_type_next.css);
+@import url(./_style/button_style_control.css);
+@import url(./_style/button_style_nav.css);
+@import url(./button_active.css);
 
 .button {
   width: 66px;
   height: 66px;
-  background-color: rgba(00, 00, 00, .3);
   color: #bbb;
   font-size: 2rem;
   font-weight: 900;
@@ -16,7 +17,7 @@
   border: 1px solid #333;
   border-radius: 2px;
   text-align: center;
-  transition: .3s ease;
+  transition: .3s ease-out;
 }
 
 .button:hover {

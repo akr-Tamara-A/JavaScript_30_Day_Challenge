@@ -1,0 +1,4 @@
+.nav_list_active {
+  transform: scaleX(1);
+  background-color: rgba(00, 00, 00, .7);
+}
