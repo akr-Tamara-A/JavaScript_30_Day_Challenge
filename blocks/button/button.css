@@ -4,8 +4,10 @@
 @import url(./_type/button_type_next.css);
 
 .button {
+  width: 66px;
+  height: 66px;
   background-color: rgba(00, 00, 00, .3);
-  color: #fff;
+  color: #bbb;
   font-size: 2rem;
   font-weight: 900;
   font-style: normal;
@@ -13,13 +15,17 @@
   padding: .5em;
   border: 1px solid #333;
   border-radius: 2px;
+  text-align: center;
+  transition: .3s ease;
 }
 
 .button:hover {
   border-color: yellow;
+  color: #fff;
 }
 
 .button:focus {
   border-color: yellow;
   outline: none;
+  color: #fff;
 }

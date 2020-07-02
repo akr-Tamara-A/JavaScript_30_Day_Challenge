@@ -1,12 +1,15 @@
 .nav__link {
+  display: block;
   color: #bbb;
   text-decoration: none;
-  transition: color .3s ease;
-  padding: 3px;
+  transition: .3s ease;
+  padding: .5em 1em;
 }
 
 .nav__link:hover {
   color: #fff;
+  background-color: rgba(00, 00, 00, .9);
+  border-radius: 2px;
 }
 
 .nav__link:focus {
