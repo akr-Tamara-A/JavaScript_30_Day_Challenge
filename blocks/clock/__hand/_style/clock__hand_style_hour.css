@@ -1,0 +1,11 @@
+.clock__hand_style_hour {
+  width: 25%;
+  height: 16px;
+  top: 47.5%;
+  left: 125px;
+  z-index: 10;
+  background-color: #000000;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4), 
+              0 12px 8px rgba(0,0,0,0.4), 
+              inset 2px 2px 5px #222222;
+}

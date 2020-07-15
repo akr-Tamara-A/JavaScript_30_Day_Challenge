@@ -1,5 +1,5 @@
 .main-nav__link {
-  color: #bbb;
+  color: #333;
   font-size: 1.2rem;
   line-height: 1.2;
   text-decoration: none;
@@ -8,11 +8,11 @@
 }
 
 .main-nav__link:hover {
-  color: #fff;
+  color: #000;
 }
 
 .main-nav__link:focus {
   outline: 1px solid yellow;
   border: none;
-  color: #fff;
+  color: #000;
 }
