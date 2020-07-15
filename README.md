@@ -5,7 +5,7 @@
 
 ***
 
-Ссылка на готовый сайт: https://akr-tamara-a.github.io/JavaScript_Drum_Kit/index.html
+Ссылка на готовый сайт: https://akr-tamara-a.github.io/JavaScript_30_Day_Challenge/
 
 ***
 
