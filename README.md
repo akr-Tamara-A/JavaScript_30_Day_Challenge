@@ -1,7 +1,7 @@
 ***
 
+#####  JavaScript 30 Days Challenge  по [видео-урокам](https://courses.wesbos.com/account/access/5eef9da6055a68151fb7c773).
 # Проект симуляции ударных
-#####  JavaScript 30 Days Challenge  по [видео-уроку](https://courses.wesbos.com/account/access/5eef9da6055a68151fb7c773).
 
 ***
 
@@ -11,14 +11,18 @@
 
 ## Содержание страниц:
 01. JavaScript Drum Kit.
+
 *При нажатии клавиш A, S, D, F, G, H, J, K и L проигрывается звук ударных.*
 
 02. CSS + JS Clock.
+
 *Аналоговые часы, синхронизированные с временем компьютера*
 
 03. Update CSS Variables with JS.
+
 *Изменение стилей фотографий с помощью ползунков и палитры цветов*
 
+***
 ## При верстке проекта были использованы следующие технологии:
 
 * применена БЭМ методология для HTML-разметки;
