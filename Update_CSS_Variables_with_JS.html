@@ -15,7 +15,7 @@
       <header class="header page__header">
         <div class="header__container">
           <img src="./images/header__logo.svg" alt="avaScript 30 Days Challenge" class="header__logo">
-          <h2 class="header__title">Update CSS Variables with JS</h2>
+          <h2 class="header__title">Update CSS Variables with <span class="header__title_variables">JS</span></h2>
           <nav class="header__nav nav">
             <button type="button" class="button nav__button button_style_nav">Select page</button>
             <ol class="nav__list">
@@ -39,8 +39,56 @@
 
       <!--Content begin-->
       <main class="content page__content">
-        <div class="content__container">
-          
+        <div class="content__container variables">
+          <form class="variables__form">
+            <label class="variables__label">
+              Spacing:
+              <input 
+                    class="variables__input" 
+                    type="range"
+                    name="spacing"
+                    min="2"
+                    max="80"
+                    value="20"
+                    data-sizing="px"
+                    >
+            </label>
+            <label class="variables__label">
+              Filter:
+              <input 
+                    class="variables__input" 
+                    type="range"
+                    name="filter"
+                    min="0"
+                    max="100"
+                    value="10"
+                    data-sizing="%"
+                    >
+            </label>
+            <label class="variables__label">
+              Base color:
+              <input 
+                    class="variables__input" 
+                    type="color"
+                    name="basecolor"
+                    value="#ffffff"
+                    >
+            </label>
+          </form>
+          <div class="variables__images">
+            <div class="variables__bg">
+              <img class="variables__image" src="./images/variables__image_01.jpg" alt="">
+            </div>
+            <div class="variables__bg">
+              <img class="variables__image" src="./images/variables__image_02.jpg" alt="">
+            </div>
+            <div class="variables__bg">
+              <img class="variables__image" src="./images/variables__image_03.jpg" alt="">
+            </div>
+            <div class="variables__bg">
+              <img class="variables__image" src="./images/variables__image_04.jpg" alt="">
+            </div>
+          </div>
         </div>
       </main>
       <!--Content end-->
@@ -59,7 +107,7 @@
 
     <!--Scripts-->
     <script src="./scripts/index.js"></script>
-    <script src="./scripts/JS-CSS_clock.js"></script>
+    <script src="./scripts/Update_CSS_Variables_with_JS.js"></script>
     
   </body>
 </html>

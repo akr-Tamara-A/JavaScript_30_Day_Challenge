@@ -1,0 +1,17 @@
+@import url(./__form/variables__form.css);
+@import url(./__label/variables__label.css);
+@import url(./__input/variables__input.css);
+@import url(./__images/variables__images.css);
+@import url(./__bg/variables__bg.css);
+@import url(./__image/variables__image.css);
+
+.variables {
+  flex-direction: column;
+  align-items: center;
+}
+
+:root {
+  --basecolor: #ffffff;
+  --spacing: 20px;
+  --filter: 10%;
+}

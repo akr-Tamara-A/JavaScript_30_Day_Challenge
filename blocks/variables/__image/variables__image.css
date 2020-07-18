@@ -1,0 +1,7 @@
+.variables__image {
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  padding: var(--spacing);
+  filter: grayscale(var(--filter));
+}

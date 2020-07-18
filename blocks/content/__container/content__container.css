@@ -1,6 +1,6 @@
 .content__container {
   display: flex;
   justify-content: center;
-  padding: 60px;
+  padding: 20px;
   box-sizing: border-box;
 }
