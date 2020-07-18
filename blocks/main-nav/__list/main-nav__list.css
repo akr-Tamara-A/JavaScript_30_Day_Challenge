@@ -3,11 +3,9 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-auto-flow: column;
-  grid-template-rows: repeat(auto-fit, 50px);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   column-gap: 40px;
-  max-width: 75vw;
-  min-width: 20vw;
-  height: 75vh;
-  outline: 1px solid saddlebrown;
+  row-gap: 20px;
+  width: 75vw;
+  max-width: 1230px; 
 }

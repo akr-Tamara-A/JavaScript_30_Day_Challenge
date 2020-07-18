@@ -6,7 +6,8 @@
 @import url(./button_active.css);
 
 .button {
-  padding: .5em;
+  width: 180px;
+  padding: .5em 0;
   border: 1px solid #333;
   border-radius: 2px;
   text-align: center;
