@@ -5,19 +5,22 @@
 
 ***
 
-Ссылка на готовый сайт: https://akr-tamara-a.github.io/JavaScript_30_Day_Challenge/
+##### Ссылка на готовый сайт: https://akr-tamara-a.github.io/JavaScript_30_Day_Challenge/
 
 ***
 
 ## Содержание страниц:
-01. JavaScript Drum Kit.
+01. **JavaScript Drum Kit.**  
 *При нажатии клавиш A, S, D, F, G, H, J, K и L проигрывается звук ударных.*
 
-02. CSS + JS Clock.
+02. **CSS + JS Clock.**  
 *Аналоговые часы, синхронизированные с временем компьютера*
 
-03. Update CSS Variables with JS.
+03. **Update CSS Variables with JS.**  
 *Изменение стилей фотографий с помощью ползунков и палитры цветов*
+
+04. **Array Cardio Day 1**
+*Сортировка списка*
 
 ***
 ## При верстке проекта были использованы следующие технологии:

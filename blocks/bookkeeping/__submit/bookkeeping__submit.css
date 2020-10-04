@@ -1,0 +1,22 @@
+.bookkeeping__submit {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.2;
+  margin: 26px 0.75em 0.625em;
+  width: 200px;
+  height: 33px;
+  border-radius: 2px;
+  border: 1px solid #666;
+  background-color: #666;
+  transition: .2s ease;
+}
+
+.bookkeeping__submit:hover {
+  background-color: #888;
+}
+
+.bookkeeping__submit:focus {
+  background-color: #888;
+}

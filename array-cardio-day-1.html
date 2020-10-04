@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./pages/array-cardio-day-1.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Andreeva Tamara">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./pages/array-cardio-day-1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Andreeva Tamara" />
     <title>Array Cardio Day 1</title>
   </head>
   <body class="page">
-    <div class="page__container page__bg page__bg_style_array-cardio-day-1">      
+    <div class="page__container page__bg page__bg_style_array-cardio-day-1">
       <!--Header begin-->
       <header class="header page__header">
         <div class="header__container">
-          <img src="./images/header__logo.svg" alt="avaScript 30 Days Challenge" class="header__logo">
+          <img
+            src="./images/header__logo.svg"
+            alt="avaScript 30 Days Challenge"
+            class="header__logo"
+          />
           <h2 class="header__title">Array Cardio Day 1</h2>
           <nav class="header__nav nav">
-            <button type="button" class="button nav__button button_style_nav">Select page</button>
+            <button type="button" class="button nav__button button_style_nav">
+              Select page
+            </button>
             <ol class="nav__list">
               <li class="nav__item">
                 <a href="./index.html" class="nav__link"> Main Page</a>
               </li>
               <li class="nav__item">
-                <a href="./JavaScript_Drum_Kit.html" class="nav__link">01. JavaScript Drum Kit</a>
+                <a href="./JavaScript_Drum_Kit.html" class="nav__link"
+                  >01. JavaScript Drum Kit</a
+                >
               </li>
               <li class="nav__item">
-                <a href="./JS-CSS_clock.html" class="nav__link">02. CSS + JS Clock</a>
+                <a href="./JS-CSS_clock.html" class="nav__link"
+                  >02. CSS + JS Clock</a
+                >
               </li>
               <li class="nav__item">
-                <a href="./Update_CSS_Variables_with_JS.html" class="nav__link">03. Update CSS Variables with JS</a>
+                <a href="./Update_CSS_Variables_with_JS.html" class="nav__link"
+                  >03. Update CSS Variables with JS</a
+                >
               </li>
               <li class="nav__item">
-                <a href="./array-cardio-day-1.html" class="nav__link">04. Array Cardio Day 1</a>
+                <a href="./array-cardio-day-1.html" class="nav__link"
+                  >04. Array Cardio Day 1</a
+                >
               </li>
             </ol>
           </nav>
@@ -42,8 +56,189 @@
 
       <!--Content begin-->
       <main class="content page__content">
-        <div class="content__container">
-          
+        <div class="content__container bookkeeping">
+          <form class="bookkeeping__form">
+            <fieldset class="bookkeeping__fieldset">
+              <label class="bookkeeping__label">
+                Фамилия
+                <input
+                  class="bookkeeping__input"
+                  name="surname"
+                  type="text"
+                  pattern="^[A-Za-zА-Яа-яЁё\s-]+$"
+                  minlength="2"
+                  maxlength="30"
+                  required
+                  placeholder="Фамилия"
+                />
+                <span class="bookkeeping__input-error"> </span>
+              </label>
+              <label class="bookkeeping__label">
+                Имя
+                <input
+                  class="bookkeeping__input"
+                  name="name"
+                  type="text"
+                  pattern="^[A-Za-zА-Яа-яЁё\s-]+$"
+                  minlength="2"
+                  maxlength="30"
+                  required
+                  placeholder="Имя"
+                />
+                <span class="bookkeeping__input-error"> </span>
+              </label>
+            </fieldset>
+            <fieldset class="bookkeeping__fieldset">
+              <label class="bookkeeping__label">
+                Дата рождения
+                <input
+                  class="bookkeeping__input"
+                  name="dateOfBirth"
+                  type="number"
+                  min="1000"
+                  max="2020"
+                  step="50"
+                  required
+                  placeholder="Дата рождения"
+                />
+                <span class="bookkeeping__input-error"> </span>
+              </label>
+              <label class="bookkeeping__label">
+                Дата смерти
+                <input
+                  class="bookkeeping__input"
+                  name="dateOfDeath"
+                  type="number"
+                  min="1000"
+                  max="2020"
+                  step="50"
+                  required
+                  placeholder="Дата смерти"
+                />
+                <span class="bookkeeping__input-error"> </span>
+              </label>
+            </fieldset>
+            <fieldset class="bookkeeping__fieldset">
+              <label class="bookkeeping__label">
+                Профессия
+                <input
+                  class="bookkeeping__input"
+                  name="job"
+                  type="text"
+                  pattern="^[A-Za-zА-Яа-яЁё\s-]+$"
+                  minlength="2"
+                  maxlength="20"
+                  required
+                  placeholder="Профессия"
+                />
+                <span class="bookkeeping__input-error"> </span>
+              </label>
+            </fieldset>
+            <button type="submit" class="bookkeeping__submit">Добавить</button>
+          </form>
+
+          <div class="bookkeeping__table">
+            <div class="bookkeeping__header">
+              <div class="bookkeeping__cell-naming">
+                Фамилия
+                <div class="bookkeeping__controls">
+                  <button
+                    class="bookkeeping__control bookkeeping__control_up"
+                    id="surname-Up"
+                    type="button"
+                  >
+                    &#9650;
+                  </button>
+                  <button
+                    class="bookkeeping__control bookkeeping__control_down"
+                    id="surname-Down"
+                    type="button"
+                  >
+                    &#9660;
+                  </button>
+                </div>
+              </div>
+              <div class="bookkeeping__cell-naming">
+                Имя
+                <div class="bookkeeping__controls">
+                  <button
+                    class="bookkeeping__control bookkeeping__control_up"
+                    id="name-Up"
+                    type="button"
+                    >
+                    &#9650;
+                  </button>
+                  <button
+                  class="bookkeeping__control bookkeeping__control_down"
+                  id="name-Down"
+                    type="button"
+                  >
+                    &#9660;
+                  </button>
+                </div>
+              </div>
+              <div class="bookkeeping__cell-naming">
+                Дата рождения
+                <div class="bookkeeping__controls">
+                  <button
+                    class="bookkeeping__control bookkeeping__control_up"
+                    id="dateOfBirth-Up"
+                    type="button"
+                  >
+                    &#9650;
+                  </button>
+                  <button
+                    class="bookkeeping__control bookkeeping__control_down"
+                    id="dateOfBirth-Down"
+                    type="button"
+                  >
+                    &#9660;
+                  </button>
+                </div>
+              </div>
+              <div class="bookkeeping__cell-naming">
+                Дата смерти
+                <div class="bookkeeping__controls">
+                  <button
+                  class="bookkeeping__control bookkeeping__control_up"
+                  id="dateOfDeath-Up"
+                  type="button"
+                  >
+                    &#9650;
+                  </button>
+                  <button
+                    class="bookkeeping__control bookkeeping__control_down"
+                    id="dateOfDeath-Down"
+                    type="button"
+                  >
+                    &#9660;
+                  </button>
+                </div>
+              </div>
+              <div class="bookkeeping__cell-naming">
+                Профессия
+                <div class="bookkeeping__controls">
+                  <button
+                    class="bookkeeping__control bookkeeping__control_up"
+                    id="job-Up"
+                    type="button"
+                  >
+                    &#9650;
+                  </button>
+                  <button
+                    class="bookkeeping__control bookkeeping__control_down"
+                    id="job-Down"
+                    type="button"
+                  >
+                    &#9660;
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="bookkeeping__data">
+
+            </div>
+          </div>
         </div>
       </main>
       <!--Content end-->
@@ -51,8 +246,8 @@
       <!--Footer begin-->
       <footer class="footer page__footer">
         <div class="footer__container">
-          <a href="https://courses.wesbos.com" 
-            class="footer__link">Source: 
+          <a href="https://courses.wesbos.com" class="footer__link"
+            >Source:
             <span class="footer__source">JavaScript30</span>
           </a>
         </div>
@@ -60,9 +255,18 @@
       <!--Footer end-->
     </div>
 
+    <template class="bookkeeping__template">
+      <div class="bookkeeping__line">
+        <p class="bookkeeping__cell js-cell__surname"></p>
+        <p class="bookkeeping__cell js-cell__name"></p>
+        <p class="bookkeeping__cell js-cell__dateOfBirth"></p>
+        <p class="bookkeeping__cell js-cell__dateOfDeath"></p>
+        <p class="bookkeeping__cell js-cell__job"></p>
+      </div>
+    </template>
+
     <!--Scripts-->
     <script src="./scripts/index.js"></script>
     <script src="./scripts/array-cardio-day-1.js"></script>
-   
   </body>
 </html>

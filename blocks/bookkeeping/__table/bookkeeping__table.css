@@ -1,0 +1,6 @@
+.bookkeeping__table {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 20px 0;
+}

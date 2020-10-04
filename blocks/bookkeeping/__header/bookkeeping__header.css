@@ -1,0 +1,6 @@
+.bookkeeping__header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 4px;
+  margin-bottom: 4px;
+}

@@ -1,0 +1,7 @@
+.bookkeeping__form {
+  background-color: rgba(240, 240, 240, .2);
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
